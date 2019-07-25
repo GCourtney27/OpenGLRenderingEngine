@@ -1,0 +1,28 @@
+﻿  camera.cpp
+  cube.cpp
+  directional_light.cpp
+  model.cpp
+  plane.cpp
+  point_light.cpp
+  sphere.cpp
+  spot_light.cpp
+  torus.cpp
+  scene01.cpp
+  scene02.cpp
+  scene03.cpp
+  scene04.cpp
+  scene05.cpp
+  scene06.cpp
+  scene07.cpp
+  scene08.cpp
+  scene09.cpp
+  scene10.cpp
+  scene11.cpp
+  main.cpp
+c:\users\garrett courtney\source\repos\gl\gl\source\scenes\scene09.cpp(110): warning C4018: '<': signed/unsigned mismatch
+c:\users\garrett courtney\source\repos\gl\gl\source\scenes\scene11.cpp(183): warning C4018: '<': signed/unsigned mismatch
+model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function "public: bool __thiscall Model::Import(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?Import@Model@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function "public: bool __thiscall Model::Import(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?Import@Model@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+model.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) referenced in function "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+C:\Users\Garrett Courtney\source\repos\GL\..\Middleware\assimp\lib\x64\assimp-vc140-mt.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Garrett Courtney\source\repos\GL\Debug\GL.exe : fatal error LNK1120: 3 unresolved externals

@@ -1,0 +1,8 @@
+﻿  scene07.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  3 of 1812 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GL.vcxproj -> C:\Users\Garrett Courtney\source\repos\GL\x64\Release\GL.exe

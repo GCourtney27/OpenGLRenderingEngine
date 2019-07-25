@@ -1,0 +1,19 @@
+﻿  glad.c
+  main.cpp
+c:\users\garrett courtney\source\repos\gl\gl\main.cpp(22): warning C4316: 'Scene01': object allocated on the heap may not be aligned 16
+  engine.cpp
+  file_system.cpp
+  input.cpp
+  timer.cpp
+  renderer.cpp
+  shader.cpp
+  vertex_array.cpp
+  scene01.cpp
+soil.lib(SOIL.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  729 of 757 functions (96.3%) were compiled, the rest were copied from previous compilation.
+    687 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GL.vcxproj -> C:\Users\Garrett Courtney\source\repos\GL\Release\GL.exe
